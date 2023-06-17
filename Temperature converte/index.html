@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h2 class="title">
+                Temperature Converter
+            </h2>
+            <div class="ipt-container">
+                <div class="select-area">
+                    Convert From:
+                    <select name="temp" class="temp-type" id="from">
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+                </div>
+
+                <div class="select-area">
+                    Convert To:
+                    <select name="temp" class="temp-type" id="to">
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-area">
+                Degrees
+                <input type="number" id="txt">
+            </div>
+            <button class="btn">Convert</button>
+            <div class="result-container">
+                Result:
+                <div class="result"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
